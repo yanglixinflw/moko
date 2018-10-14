@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>解决方案-列表</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="../../css/bo_base.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="../../css/bo_solution.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../js/table_controller.js"></script>
+    <script src="../../js/scroll.js"></script>
+</head>
+<body>
+    <div class="bo_title_bar_group">
+        <img src="../../img/title_bar_logo.png">
+        <h2>2017-12-29</h2>
+        <div class="bo_title_bar">
+            <h1>网站后台管理系统</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="bo_left_first_bar">
+            <ul>
+                <a href="../solution/budonglist.html"><li class="can_click">解决方案</li></a>
+                <a href="../chenggong/budonglist.html"><li class="active can_click">成功案例</li></a>
+                <a href="../news/gongsilsit.html"><li class="can_click">摩科新闻</li></a>
+                <a href="../service/shouhou.html"><li class="can_click">售后服务</li></a>
+            </ul>
+            <a href="../login.html" class="exit_button">退出后台</a>
+        </div>
+        <div class="bo_left_second_bar">
+            <ul>
+                <a href="budonglist.html"><li class="can_click">不动产</li></a>
+                <a href="zhujianlist.html"><li class="can_click">住建</li></a>
+                <a href="shuiwulist.html"><li class="active can_click">税务</li></a>
+                <a href="renshelist.html"><li class="can_click">人社</li></a>
+            </ul>
+        </div>
+        <div class="bo_content">
+            <a class="action_button can_click" href="./new/shuiwu.html">+添加文章</a>
+            <table class="bo_list_table">
+                <tr>
+                    <th class="bo_list_column1"></th>
+                    <th class="bo_list_column2">文章标题</th>
+                    <th class="bo_list_column3">发布日期</th>
+                    <th class="bo_list_column4">大小</th>
+                </tr>
+                <!--  需要替换和循环的内容  循环次数：设计为20次
+                <tr>
+                    <td class="bo_list_column1"><label><input type="checkbox"><span></span></label></td>
+                    <td class="bo_list_column2"><a href="这里替换链接">这里替换内容</a></td>
+                    <td class="bo_list_column3">这里替换日期</td>
+                    <td class="bo_list_column4">这里替换大小</td>
+                </tr>
+                -->
+            </table>
+            <div class="bo_list_table_footer">
+                <div class="function_button can_click" onclick="selectedAll();">全选</div>
+                <div class="function_button can_click" onclick="deleteSelected();">删除</div>
+                <a class="has_href can_click">下一页</a>
+                <a class="has_href can_click">上一页</a>
+                <a>2/3</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

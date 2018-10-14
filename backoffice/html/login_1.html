@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="../css/bo_base.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="../css/bo_login.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <div class="bo_login_div">
+        <div class="bo_login_title">
+            <h1>管理员登录</h1>
+            <a href="#">返回网站主页</a>
+        </div>
+        <div class="bo_login_view">
+            <form id="login">
+                <table>
+                    <tr class="bo_login_tr">
+                        <td>用户名:</td>
+                        <td colspan="3"><input id="username" type="text" class="bo_form_input" placeholder=""/></td>
+                    </tr>
+                    <tr class="bo_login_tr">
+                        <td>密&nbsp;&nbsp;&nbsp;码：</td>
+                        <td colspan="3"><input id="password" type="password" class="bo_form_input" placeholder=""/></td>
+                    </tr>
+                    <tr class="bo_login_tr">
+                        <td>验证码:</td>
+                        <td class="bo_login_td2"><input id="checknumber" type="text" class="bo_form_input" placeholder=""/></td>
+                        <td class="bo_login_td3"><img id="checknumber_img" src="../img/pass_code.png"></td>
+                        <td class="bo_login_td4"><a class="can_click" onclick="changeCheckNum()">换一张</a></td>
+                    </tr>
+                    <tr class="bo_login_tr4">
+                        <td colspan="4"><input type="button" value="登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录" class="bo_form_submit can_click" onclick="login()"/></td>
+                    </tr>
+                </table>
+            </form>
+            <div class="bo_login_line">
+            </div>
+            <div class="bo_login_logo">
+                <img src="../img/login_logo.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

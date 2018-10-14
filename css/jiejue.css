@@ -1,0 +1,36 @@
+.jiejue_con{width:1200px;margin: 0 auto;margin-top: 30px;}
+.jiejue_con .neiye_biaoti{border: 0;height: 40px;margin-bottom: 30px;}
+.jiejue_con .no_1{width: 1200px;}
+.jiejue_con .no_1 .jiejue_biaoti{width: 1200px;height: 40px;border-bottom: 1px solid #999;margin-top: 30px;}
+.jiejue_con .no_1 .jiejue_biaoti h5{display: inline-block;height: 37px;border-bottom: 3px solid #0f88eb;width: 100px;text-align: center;line-height: 37px;font-weight: normal;color: #222;}
+.jiejue_con .no_1 ul{width: 1200px;}
+.jiejue_con .no_1 ul li{width: 258px;height: 278px;border: 1px solid #6f6f6f;float: left;margin: 30px 0 0 30px;}
+.jiejue_con .no_1 ul li .top{width:175px;height: 110px;background: url(../images/未标题-1.jpg) no-repeat center center;padding: 27px 42px 21px 37px;margin: 0 auto;}
+.jiejue_con .no_1 ul li .top .imgs{width: 176px;height: 110px;overflow: hidden;}
+.jiejue_con .no_1 ul li .top .imgs img{width: 190px;margin-left: -8px;}
+.jiejue_con .no_1 ul li .middle{width: 258px;height: 40px;line-height: 40px;font-size: 16px;text-align: center;color: #fff;background: #6f6f6f;}
+.jiejue_con .no_1 ul li .bottom{width: 210px;line-height: 28px;font-size: 14px;color: #666;padding: 15px 24px 0 24px;text-align: center;margin: 0 auto;}
+.foot{margin-top: 30px;}
+
+@media screen and (max-width:1200px){
+.jiejue_con{width:100%;margin: 0 auto;margin-top: 30px;}
+.jiejue_con .neiye_biaoti{border: 0;height: 40px;margin-bottom: 30px;}
+.jiejue_con .no_1{width: 100%;}
+.jiejue_con .no_1 .jiejue_biaoti{width: 90%;height: 40px;border-bottom: 1px solid #999;margin-top: 30px;margin-left: 5%;}
+.jiejue_con .no_1 .jiejue_biaoti h5{display: inline-block;height: 37px;border-bottom: 3px solid #0f88eb;width: 100px;text-align: center;line-height: 37px;font-weight: normal;color: #222;}
+.jiejue_con .no_1 ul{width: 100%;}
+.jiejue_con .no_1 ul li{width: 80%;height: 278px;border: 1px solid #6f6f6f;float: left;margin: 30px 0 0 30px;margin-left: 10%;}
+.jiejue_con .no_1 ul li .top{width:175px;height: 110px;background: url(../images/jj-bg.png) no-repeat center center;padding: 27px 42px 21px 37px;margin: 0 auto;}
+.jiejue_con .no_1 ul li .top .imgs{width: 176px;height: 110px;overflow: hidden;}
+.jiejue_con .no_1 ul li .top .imgs img{width: 190px;margin-left: -8px;}
+.jiejue_con .no_1 ul li .middle{width: 100%;height: 40px;line-height: 40px;font-size: 16px;text-align: center;color: #fff;background: #6f6f6f;}
+.jiejue_con .no_1 ul li .bottom{width: 210px;line-height: 28px;font-size: 14px;color: #666;padding: 15px 24px 0 24px;text-align: center;margin: 0 auto;}
+.foot{margin-top: 30px;}	
+}
+
+
+
+
+
+
+

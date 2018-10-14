@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            list-style: none;
+            text-decoration: none;
+        }
+        ul{
+            width: 100px;
+            height:300px;
+            float: left;
+        }
+        li{
+            width: 100%;
+            height:100px;
+            border:1px solid #000000;
+        }
+        li a{color:black;}
+        div{
+            float: right;
+        }
+        .hover{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="demo1.html"> 首页</a></li>
+    <li><a href="demo2.html"> 个人资料</a></li>
+    <li><a href="demo3.html"> 我的好友</a></li>
+</ul>
+<div>
+我是demo1
+</div>
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>
+    $(function(){
+        var url = window.location.href;
+        console.log(url);
+        var result=url.lastIndexOf("\/");//该方法返回一个数字，即从开始到所截取部分的长度，不包括要截取的字符
+        console.log(result)
+        url=url.substring(result+1,url.length);
+        console.log(url)
+    })
+</script>
+</html>

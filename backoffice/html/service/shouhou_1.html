@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>售后服务</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="../../css/bo_base.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="../../css/bo_service.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../js/table_controller.js"></script>
+    <script src="../../js/scroll.js"></script>
+</head>
+<body>
+    <div class="bo_title_bar_group">
+        <img src="../../img/title_bar_logo.png">
+        <h2>2017-12-29</h2>
+        <div class="bo_title_bar">
+            <h1>网站后台管理系统</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="bo_left_first_bar_no_second">
+            <ul>
+                <a href="../solution/budonglist.html"><li class="can_click">解决方案</li></a>
+                <a href="../chenggong/budonglist.html"><li class="can_click">成功案例</li></a>
+                <a href="../news/gongsilsit.html"><li class="can_click">摩科新闻</li></a>
+                <a href="../service/shouhou.html"><li class="active can_click">售后服务</li></a>
+            </ul>
+            <a href="../login.html" class="exit_button">退出后台</a>
+        </div>
+        <div class="bo_content_no_second">
+            <p>*信息流-按时间顺序最新的在上面</p>
+            <table class="bo_list_table">
+                <tr>
+                    <th class="bo_list_column1"></th>
+                    <th class="bo_list_column2">姓名</th>
+                    <th class="bo_list_column3">电话</th>
+                    <th class="bo_list_column4">邮箱</th>
+                    <th class="bo_list_column5">产品型号</th>
+                    <th class="bo_list_column6">配件型号</th>
+                    <th class="bo_list_column7">公司名称</th>
+                    <th class="bo_list_column8">故障描述</th>
+                </tr>
+                <!--
+                <tr>
+                    <td class="bo_list_column1"><label><input type="checkbox"><span></span></label></td>
+                    <td class="bo_list_column2">这里替换姓名</td>
+                    <td class="bo_list_column3">这里替换电话</td>
+                    <td class="bo_list_column4">这里替换邮箱</td>
+                    <td class="bo_list_column5">这里替换产品型号</td>
+                    <td class="bo_list_column6">这里替换配件型号</td>
+                    <td class="bo_list_column7">这里替换公司名称</td>
+                    <td class="bo_list_column8">这里替换故障描述</td>
+                </tr>
+                -->
+            </table>
+            <div class="bo_list_table_footer">
+                <div class="function_button can_click" onclick="selectedAll();">全选</div>
+                <div class="function_button can_click" onclick="deleteSelected();">删除</div>
+                <a class="has_href can_click">下一页</a>
+                <a class="has_href can_click">上一页</a>
+                <a>2/3</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+.bo_list_table {
+    width: 1500px;
+}
+
+.bo_list_column1 {
+    width: 80px;
+    text-align: center;
+    border-style: none;
+}
+
+.bo_list_column2 {
+    border-style: none;
+}
+
+.bo_list_column3 {
+    width: 330px;
+    border-style: none;
+}
+
+.bo_list_column4 {
+    width: 130px;
+    border-style: none;
+}
+
+.bo_list_table_footer {
+    width: 1500px;
+}

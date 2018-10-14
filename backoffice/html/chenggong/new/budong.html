@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>解决方案-列表</title>
+    <link rel="stylesheet" href="../../../layui/css/layui.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="../../../css/bo_base.css">
+</head>
+<body>
+<div class="bo_title_bar_group">
+    <img src="../../../img/title_bar_logo.png">
+    <h2>2017-12-29</h2>
+    <div class="bo_title_bar">
+        <h1>网站后台管理系统</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="bo_left_first_bar">
+        <ul>
+            <a href="../../solution/budonglist.html"><li class="can_click">解决方案</li></a>
+            <a href="../../chenggong/budonglist.html"><li class="active can_click">成功案例</li></a>
+            <a href="../../news/gongsilsit.html"><li class="can_click">摩科新闻</li></a>
+            <a href="../../service/shouhou.html"><li class="can_click">售后服务</li></a>
+        </ul>
+        <a href="../../login.html" class="exit_button">退出后台</a>
+    </div>
+    <div class="bo_left_second_bar">
+        <ul>
+            <a href="../budonglist.html"><li class="active can_click">不动产</li></a>
+            <a href="../zhujianlist.html"><li class="can_click">住建</li></a>
+            <a href="../shuiwulist.html"><li class="can_click">税务</li></a>
+            <a href="../renshelist.html"><li class="can_click">人社</li></a>
+        </ul>
+    </div>
+    <div class="bo_content">
+        <div class="bo_create_row note">*为必填项</div>
+        <div class="bo_create_row">
+            <div class="bo_input_title">*文章标题</div>
+            <div class="bo_input_group_1">
+                <input class="bo_title">
+            </div>
+        </div>
+        <div class="bo_create_row">
+            <div class="bo_input_title">*添加题图</div>
+            <div class="bo_uploaded_file">
+                <img id="cancel_uploaded" src="../../../img/cancel_uploaded.png"/>
+                <img id="uploaded_img"/>
+            </div>
+            <div>
+                <a class="bo_upload_file"><img src="../../../img/upload.png"/><input id="imgPicker" type="file" /></a>
+            </div>
+            <div>
+                <!--<div class="bo_input_title_2">*发布日期</div>-->
+                <div class="layui-inline">
+                    <label class="layui-form-label">*发布日期</label>
+                    <div class="layui-input-inline">
+                        <input class="layui-input" id="test1" type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bo_editor_row">
+            <div class="bo_input_title">文章正文</div>
+            <div class="bo_editor">
+                <div id="editor">
+
+                </div>
+            </div>
+        </div>
+        <div class="bo_create_row">
+            <div class="bo_center_button can_click">发布文章</div>
+        </div>
+    </div>
+</div>
+<script src="../../../laydate/laydate.js"></script>
+<script src="../../../js/upload.js"></script>
+<script src="../../../js/scroll.js"></script>
+<script src="../../../layui/layui.js"></script>
+<script src="../../../js/wangEditor.min.js"></script>
+<script>
+    layui.use('laydate', function() {
+        var laydate = layui.laydate;
+        //常规用法
+        laydate.render({
+            elem: '#test1'
+        });
+    })//时间控件
+</script>
+<script type="text/javascript">
+    var E = window.wangEditor;
+    var editor = new E('#editor');
+    // 或者 var editor = new E( document.getElementById('editor') )
+    editor.create()//编辑器
+</script>
+</body>
+</html>
